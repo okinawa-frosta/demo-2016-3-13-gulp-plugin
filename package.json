@@ -1,0 +1,22 @@
+{
+  "name": "demo-2016-3-13-gulp-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -t 10000 -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com:okinawa-frosta/demo-2016-3-13-gulp-plugin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^2.2.0",
+    "gulp-replace": "^0.5.4",
+    "path": "^0.12.7",
+    "through2": "^2.0.1"
+  }
+}
